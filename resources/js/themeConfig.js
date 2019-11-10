@@ -9,11 +9,12 @@
 
 // MAIN COLORS - VUESAX THEME COLORS
 let colors = {
-	primary : '#28C76F',
-	success : '#28C76F',
-	danger  : '#EA5455',
-	warning : '#FF9F43',
-	dark    : '#1E1E1E',
+    // primary : '#7367F0',
+    primary : '#28C76F',
+    success : '#28C76F',
+    danger  : '#EA5455',
+    warning : '#FF9F43',
+    dark    : '#1E1E1E',
 }
 
 import Vue from 'vue'

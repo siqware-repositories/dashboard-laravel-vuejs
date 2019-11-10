@@ -6912,7 +6912,7 @@ var render = function() {
         attrs: {
           navMenuItems: _vm.navMenuItems,
           logo: _vm.navMenuLogo,
-          title: "Vuexy",
+          title: "SIQWARE",
           parent: ".layout--main"
         }
       }),
@@ -7175,7 +7175,7 @@ render._withStripped = true
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/logo.png?a5d6fa57427643c6ebe37859086c9a63";
+module.exports = "/images/logo.png?8728aa1079484fa4192345fa08c756ad";
 
 /***/ }),
 

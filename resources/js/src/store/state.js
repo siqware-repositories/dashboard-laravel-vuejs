@@ -41,7 +41,7 @@ const state = {
     scrollY                 : 0,
     starredPages            : navbarSearchAndPinList.data.filter((page) => page.highlightAction),
     theme                   : themeConfig.theme || "light",
-    themePrimaryColor       : colors.primary,
+    themePrimaryColor       : colors.success,
 
     // Can be used to get current window with
     // Note: Above breakpoint state is for internal use of sidebar & navbar component

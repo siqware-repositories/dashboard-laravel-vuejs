@@ -17,14 +17,9 @@
     <link rel="shortcut icon" href="{{ asset('images/logo/favicon.png') }}">
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but Vuexy  - Vuejs, HTML & Laravel Admin Dashboard Template doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
     <div id="app">
     </div>
-
     <!-- <script src="js/app.js"></script> -->
     <script src="{{ asset(mix('js/app.js')) }}"></script>
-
   </body>
 </html>

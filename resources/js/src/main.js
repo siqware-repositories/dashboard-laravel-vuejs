@@ -48,7 +48,7 @@ import 'prismjs/themes/prism-tomorrow.css'
 // import 'vue-select/dist/vue-select.css';
 
 
-Vue.config.productionTip = false
+Vue.config.productionTip = true
 
 new Vue({
     router,

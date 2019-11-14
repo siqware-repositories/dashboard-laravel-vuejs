@@ -47,8 +47,13 @@ import 'prismjs/themes/prism-tomorrow.css'
 // Note: In latest version you have to add it separately
 // import 'vue-select/dist/vue-select.css';
 
+// Vue context css
+import 'vue-context/dist/css/vue-context.css';
+Vue.config.productionTip = false
 
-Vue.config.productionTip = true
+// VeeValidate
+import VeeValidate from 'vee-validate'
+Vue.use(VeeValidate);
 
 new Vue({
     router,

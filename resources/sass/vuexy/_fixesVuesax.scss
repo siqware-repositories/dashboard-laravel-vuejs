@@ -71,10 +71,10 @@
   }
 
   &:not(.vs-radius):not(.includeIconOnly):not(.small):not(.large) {
-    padding: .75rem 2rem;
+    padding: .3rem 1.5rem;
 
     &.vs-button-border {
-      padding: .679rem 2rem;
+      padding: .3rem 1.5rem;
     }
 
   }
@@ -457,7 +457,7 @@
 }
 
 .con-vs-popup {
-  z-index: 53000;
+  z-index: 54000;
 
   .vs-popup--content {
     padding: 1rem;

@@ -7,6 +7,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>SIQWARE | App</title>
     <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Battambang&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset(mix('css/main.css')) }}">
     <link rel="stylesheet" href="{{ asset(mix('css/iconfont.css')) }}">
     <link rel="stylesheet" href="{{ asset(mix('css/material-icons/material-icons.css')) }}">

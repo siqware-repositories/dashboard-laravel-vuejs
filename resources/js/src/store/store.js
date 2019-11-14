@@ -18,11 +18,15 @@ import actions from "./actions"
 
 Vue.use(Vuex)
 
-
+//Module
+import users from './modules/user'
 export default new Vuex.Store({
     getters,
     mutations,
     state,
     actions,
+    modules: {
+        users,
+    },
     strict: process.env.NODE_ENV !== 'production'
 })
